@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:netflex_clone_dev/screen/home_screen.dart';
 import 'package:netflex_clone_dev/widget/buttom_bar.dart';
 
 void main() => runApp(MyApp());
@@ -12,7 +13,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Netflex-Clone",
+      title: "Netflex-clone",
       theme: ThemeData(
           brightness: Brightness.dark,
           primaryColor: Colors.black,
@@ -23,11 +24,12 @@ class _MyAppState extends State<MyApp> {
           body: TabBarView(
             physics: NeverScrollableScrollPhysics(),
             children: <Widget>[
-              Container(
-                child: Center(
-                  child: Text('home'),
-                ),
-              ),
+              HomeScreen(),
+              // Container(
+              //   child: Center(
+              //     child: Text('home'),
+              //   ),
+              // ),
               Container(
                 child: Center(
                   child: Text('search'),
