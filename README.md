@@ -1,3 +1,3 @@
-# Netflex_Clone_Dev
-- Netflex Clone App Dev
+# netflix_Clone_Dev
+- netflix Clone App Dev
 - Flutter

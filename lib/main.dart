@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:netflex_clone_dev/screen/home_screen.dart';
-import 'package:netflex_clone_dev/widget/buttom_bar.dart';
+import 'package:netflix_clone_dev/screen/home_screen.dart';
+import 'package:netflix_clone_dev/widget/buttom_bar.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +13,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Netflex-clone",
+      title: "netflix-clone",
       theme: ThemeData(
           brightness: Brightness.dark,
           primaryColor: Colors.black,
